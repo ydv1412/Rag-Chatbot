@@ -1,13 +1,13 @@
-# 🧠 RAG Chatbot for European Commission News
+# RAG Chatbot for European Commission News
 ---
 
-## 📘 Overview
+##  Overview
 This project implements a **Retrieval-Augmented Generation (RAG)** chatbot that answers factual questions grounded in real **European Commission news articles** (June–July 2024).  
 Instead of searching and reading multiple articles manually, users can ask natural questions and receive concise, context-based answers drawn directly from curated EU news.
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 | File | Description |
 |------|--------------|
@@ -19,7 +19,7 @@ Instead of searching and reading multiple articles manually, users can ask natur
 
 ---
 
-## ⚙️ Components
+##  Components
 
 ### 1. **Data & Preprocessing**
 - News scraped from the [European Commission website](https://ec.europa.eu/newsroom/homepage)  
@@ -39,7 +39,7 @@ Instead of searching and reading multiple articles manually, users can ask natur
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ```bash
 # 1. Create a new conda environment
