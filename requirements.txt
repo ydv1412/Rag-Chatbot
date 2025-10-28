@@ -1,4 +1,4 @@
-# === Core ===
+# Core
 python==3.10
 streamlit==1.50.0
 numpy<2.0
@@ -10,13 +10,13 @@ pillow<12
 jinja2
 typing-extensions
 
-# === LangChain ecosystem ===
+# LangChain ecosystem
 langchain==0.2.17
 langchain-community==0.2.17
 langchain-huggingface==0.0.3
 langsmith
 
-# === Embeddings & Models ===
+# Embeddings & Models
 sentence-transformers==2.7.0
 transformers<4.45
 accelerate<1.0
@@ -24,10 +24,11 @@ torch==2.3.1
 huggingface-hub
 faiss-cpu==1.8.0.post1
 
-# === Llama.cpp backend ===
+#Llama.cpp backend
 llama-cpp-python==0.3.16
 
-# === Vector store, evaluation, utilities ===
+#Vector store, evaluation, utilities
 scikit-learn
 scipy
+
 
