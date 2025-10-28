@@ -284,4 +284,3 @@ if ask and q and q.strip():
             status.update(label="Error", state="error")
             st.error(f"Retrieval error: {e}")
             st.stop()
-
