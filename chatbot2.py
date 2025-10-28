@@ -276,7 +276,7 @@ if ask and q and q.strip():
                 if not answer:
                     answer = "The answer is not in the provided context."
 
-                status.update(label="Done ✅", state="complete")
+                status.update(label="Done ", state="complete")
                 st.markdown(f'<div class="msg assist">{answer}</div>', unsafe_allow_html=True)
                 st.session_state.history.append({"role": "assistant", "content": answer})
 
@@ -284,3 +284,4 @@ if ask and q and q.strip():
             status.update(label="Error", state="error")
             st.error(f"Retrieval error: {e}")
             st.stop()
+
