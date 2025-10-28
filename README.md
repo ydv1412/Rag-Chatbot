@@ -14,7 +14,7 @@ Instead of searching and reading multiple articles manually, users can ask natur
 | `Web Scrapping.ipynb` | Web scraping and preprocessing of EU Commission news articles. |
 | `Chunking&Vectorisation.ipynb` | Splits news text into overlapping chunks and builds FAISS vector store with MPNet embeddings. |
 | `AnswerGeneration.ipynb` | Prototyping and evaluation of answer quality (BLEU, ROUGE, METEOR). |
-| `chatbot.py` | Streamlit chatbot app using Mistral-7B via `llama.cpp` and FAISS retrieval. |
+| `chatbot2.py` | Streamlit chatbot app using Mistral-7B via `llama.cpp` and FAISS retrieval. |
 
 
 ---
