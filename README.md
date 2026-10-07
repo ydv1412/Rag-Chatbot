@@ -384,21 +384,8 @@ The application supports:
 
 #  Demo
 
-A short demonstration of the complete RAG pipeline can be added here.
-
 >  **Demo video: Coming soon**
 
-Suggested demo:
-
-```text
-Ask Question
-     ↓
-Show Retrieved EU News Passages
-     ↓
-Generate Grounded Answer
-     ↓
-Show Source Article
-```
 
 ---
 
